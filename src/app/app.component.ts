@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: `
     <!--The content below is only a placeholder and can be replaced.-->
-    <div style="text-align:center">
+    <div style="text-align:center" fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="24px">
       <h1>
         Welcome to {{title}}!
       </h1>
